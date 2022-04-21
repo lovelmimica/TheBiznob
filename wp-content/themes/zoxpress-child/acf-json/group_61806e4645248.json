@@ -1,0 +1,52 @@
+{
+    "key": "group_61806e4645248",
+    "title": "Post Fields",
+    "fields": [
+        {
+            "key": "field_61806e4af87aa",
+            "label": "Single Post Layout",
+            "name": "single_post_layout",
+            "type": "select",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "single-post-layout-1": "Single Post Layout 1",
+                "single-post-layout-2": "Single Post Layout 2",
+                "single-post-layout-3": "Single Post Layout 3",
+                "single-post-layout-4": "Single Post Layout 4"
+            },
+            "default_value": "single-post-layout-1",
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "return_format": "value",
+            "ajax": 0,
+            "placeholder": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1649614954
+}

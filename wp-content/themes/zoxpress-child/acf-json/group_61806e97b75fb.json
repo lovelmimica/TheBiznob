@@ -1,0 +1,71 @@
+{
+    "key": "group_61806e97b75fb",
+    "title": "Category Fields",
+    "fields": [
+        {
+            "key": "field_61806e9d84701",
+            "label": "Color",
+            "name": "color",
+            "type": "text",
+            "instructions": "Enter the hex code for desired color",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "#2294fd",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_61806f0684702",
+            "label": "Category Layout",
+            "name": "category_layout",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "category-layout-1": "Category Layout 1",
+                "category-layout-2": "Category Layout 2",
+                "category-layout-3": "Category Layout 3",
+                "category-layout-4": "Category Layout 4"
+            },
+            "default_value": "category-layout-2",
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "return_format": "value",
+            "ajax": 0,
+            "placeholder": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "taxonomy",
+                "operator": "==",
+                "value": "category"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1649614940
+}

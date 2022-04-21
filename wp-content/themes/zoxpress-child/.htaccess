@@ -1,0 +1,15 @@
+<IfModule mod_headers.c>
+
+ #You can specify the files to allow access to. Web Font files usually have following extensions as mentioned below
+
+    <FilesMatch "\.(ttf|ttc|otf|eot|woff|woff2)$">
+
+        #You can specify any particular domain name, to restrict the access to that domain only, in place of *
+
+        Header set Access-Control-Allow-Origin *
+
+    </FilesMatch>
+
+</IfModule>
+
+Options All -Indexes
