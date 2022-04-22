@@ -1,4 +1,0 @@
-[28-Dec-2021 18:38:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/biznob/public_html/wp-content/plugins/market-data/market-data.php:18
-Stack trace:
-#0 {main}
-  thrown in /home/biznob/public_html/wp-content/plugins/market-data/market-data.php on line 18
